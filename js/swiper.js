@@ -53,5 +53,5 @@ var swiperPerson = new Swiper(".person__swiper", {
 });
 
 window.onload = () => {
-	setTimeout(() => { swiperFavorite.update(); swiperPerson.update();}, 50);
+	setTimeout(() => { swiperFavorite.update(); swiperPerson.update(); console.log(1);}, 50);
 }

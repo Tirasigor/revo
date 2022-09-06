@@ -52,6 +52,10 @@ var swiperPerson = new Swiper(".person__swiper", {
 	observeParents: true,
 });
 
-window.onload = () => {
-	setTimeout(() => { swiperFavorite.update(); swiperPerson.update(); console.log(1);}, 50);
-}
+window.addEventListener('load', () => {
+	setTimeout(() => {
+		swiperFavorite.update();
+		swiperPerson.update();
+		console.log(1);
+	}, 50)
+});

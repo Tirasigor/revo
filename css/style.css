@@ -259,7 +259,7 @@ body {
 }
 .header__nav-side {
   position: relative;
-  z-index: 9;
+  z-index: 99;
   height: 100vh;
   padding-left: 4.071vw;
   width: 19.57vw;
@@ -306,6 +306,7 @@ body {
     background-color: #415167;
   }
   .header__burger span {
+    pointer-events: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -358,7 +359,6 @@ body {
   }
   .header__nav-side {
     min-width: 195px;
-    z-index: 99;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     position: fixed;
@@ -999,6 +999,10 @@ body {
   .person__title {
     background-color: #f9fbff;
   }
+
+  .header__main-text {
+    left: 15px;
+  }
 }
 .display-large {
   font-family: "Montserrat";
@@ -1007,6 +1011,12 @@ body {
   line-height: 70px;
 }
 
+@media (max-width: 486px) {
+  .display-large {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
 .display-medium {
   font-family: "Montserrat";
   font-weight: 900;

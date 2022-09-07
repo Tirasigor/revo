@@ -505,6 +505,9 @@ body {
   background-color: #edf0f5;
   color: #c7a17a;
 }
+.favorite__slide-button-buy:active {
+  color: #151d28;
+}
 .favorite__slide-button-learn {
   position: relative;
   padding: 5px;
@@ -526,6 +529,15 @@ body {
 .favorite__slide-button-learn:hover::before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+.favorite__slide-button-learn:active {
+  color: #c7a17a;
+}
+.favorite__slide-button-learn:active::before {
+  -webkit-transition: none;
+  transition: none;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
 }
 
 .swiper {
@@ -583,6 +595,14 @@ body {
   transition: all 0.2s ease;
   fill: #415167;
 }
+.swiper-button-next:active {
+  background-color: #151d28;
+}
+.swiper-button-next:active svg path {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  fill: #edf0f5;
+}
 .swiper-button-next::after {
   content: "";
   display: none;
@@ -607,6 +627,14 @@ body {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   fill: #415167;
+}
+.swiper-button-prev:active {
+  background-color: #151d28;
+}
+.swiper-button-prev:active svg path {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  fill: #edf0f5;
 }
 .swiper-button-prev::after {
   content: "";
@@ -739,6 +767,9 @@ body {
   background-color: #edf0f5;
   color: #c7a17a;
 }
+.giftset__body-button-buy:active {
+  color: #151d28;
+}
 .giftset__body-button-learn {
   text-align: center;
   margin-bottom: 20px;
@@ -761,6 +792,15 @@ body {
 .giftset__body-button-learn:hover::before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+.giftset__body-button-learn:active {
+  color: #c7a17a;
+}
+.giftset__body-button-learn:active::before {
+  -webkit-transition: none;
+  transition: none;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
 }
 .giftset__buttons {
   margin-top: -51px;
@@ -899,14 +939,17 @@ body {
   background-color: #edf0f5;
   color: #c7a17a;
 }
-.person__swiper-learn {
+.person__swiper-button-buy:active {
+  color: #151d28;
+}
+.person__swiper-button-learn {
   margin: auto 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   position: relative;
 }
-.person__swiper-learn::before {
+.person__swiper-button-learn::before {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   content: "";
@@ -920,9 +963,18 @@ body {
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
 }
-.person__swiper-learn:hover::before {
+.person__swiper-button-learn:hover::before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+.person__swiper-button-learn:active {
+  color: #c7a17a;
+}
+.person__swiper-button-learn:active::before {
+  -webkit-transition: none;
+  transition: none;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
 }
 .person__background {
   position: absolute;

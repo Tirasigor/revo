@@ -56,6 +56,5 @@ window.addEventListener('load', () => {
 	setTimeout(() => {
 		swiperFavorite.update();
 		swiperPerson.update();
-		console.log(1);
-	}, 50)
+	}, 200)
 });

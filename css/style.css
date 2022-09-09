@@ -704,6 +704,10 @@ body {
   position: relative;
   z-index: 10;
 }
+.giftset__image img {
+  height: 409px;
+  max-width: 463px;
+}
 .giftset__body {
   border: 1px solid #e7e9ed;
   background: #ffffff;
@@ -849,6 +853,8 @@ body {
   .giftset__image img {
     min-width: 200px;
     width: 33.6vw;
+    height: 29.74vw;
+    min-height: 185px;
   }
   .giftset__item {
     display: block;

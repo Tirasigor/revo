@@ -364,8 +364,6 @@ body {
     position: fixed;
     top: 0;
     right: -195px;
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
   }
   .header__nav-side_active {
     -webkit-transform: translateX(-100%);
